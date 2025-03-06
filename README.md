@@ -11,13 +11,13 @@ The framework is a key deliverable from a project funded through the STFC Cross 
 ```
 rad_qec/
 ├── SQEC/
-│   ├── qec.py         # Core implementation
-│   │   ├── SpaceRadiationSimulator  # Simulates space radiation environments
-│   │   ├── SpaceHardenedQEC         # Implements QEC protocols
-│   │   └── Visualizer               # Analysis and visualization tools
-│   │
-│   ├── setup.py       # Package installation configuration
-│   └── test.py        # Test script for the framework
+│   └── qec.py         # Core implementation
+│       ├── SpaceRadiationSimulator  # Simulates space radiation environments
+│       ├── SpaceHardenedQEC         # Implements QEC protocols
+│       └── Visualizer               # Analysis and visualization tools
+│    
+│── setup.py       # Package installation configuration
+│── test.py        # Test script for the framework
 │
 └── README.md          # This file
 ```
