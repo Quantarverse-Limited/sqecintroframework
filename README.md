@@ -61,7 +61,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Acknowledgments
 
-This work was supported by the STFC Cross Cluster Proof of Concept: SparQ Quantum Computing Call. We would like to thank all project partners and the National Quantum Computing Centre for their contributions.
+This work was supported by the STFC Cross Cluster Proof of Concept: SparQ Quantum Computing Call.
 
 ## Contact
 
