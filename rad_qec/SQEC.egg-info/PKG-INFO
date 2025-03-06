@@ -1,0 +1,76 @@
+Metadata-Version: 2.2
+Name: SQEC
+Version: 0.1
+Summary: A Qiskit-based Quantum Error Correction simulation package
+Author: Arun Balabhadran, Cherian P I, Quantaverse LTD
+Description-Content-Type: text/markdown
+Requires-Dist: qiskit
+Requires-Dist: qiskit-aer
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Dynamic: author
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: requires-dist
+Dynamic: summary
+
+# Space-Hardened Quantum Error Correction (SQEC)
+# Introduction
+
+This repository provides a introductory software framework for Quantum Error Correction (QEC) in the context of space missions. It models the effects of space radiation (e.g., cosmic rays, solar particles) on quantum circuits and applies a space-hardened error correction protocol to mitigate the induced errors. The simulation uses Qiskit, a popular open-source quantum computing framework, and provides tools to visualize and analyze the error correction results.
+
+
+
+This project demonstrates the implementation of a space-hardened quantum error correction (QEC) protocol designed for quantum computing systems in space environments, particularly under the effects of space radiation.
+
+## Project Structure
+
+The project consists of two primary Python scripts:
+
+- `qec.py`: Contains the implementation of the space radiation simulator, quantum error correction (QEC) protocol, and noise modeling.
+
+The framework in `qec.py` includes:
+    -` SpaceRadiationSimulator` to simulate the space radiation environment and calculate error rates.
+    -` SpaceHardenedQEC` class to implement the quantum error correction scheme, incorporating noise models.
+    -` Visualizer` to analyze and plot the results of the error correction experiment.
+
+- `test.py`: This is the testing script that initializes the simulator, runs quantum error correction experiments, and visualizes the results.
+
+## Requirements
+
+To run this project, you will need the following dependencies:
+
+- Python 3.x
+- Qiskit (Quantum Information Science Kit) - To work with quantum circuits.
+- Numpy - For mathematical operations.
+- Matplotlib - For data visualization.
+
+Install the required Python libraries using pip
+pip install numpy matplotlib qiskit
+
+
+/rad_qec/
+  ├── /SQEC/
+  │    ├── qec.py         # Space radiation simulation and QEC protocol implementation
+  │    ├──  setup.py      # This is the setup file 
+  │    └── test.py        # Test script to run the QEC experiment
+  └── README.md           # This file
+
+
+## The Radiation Environment and Quantum Error Rates
+         ________________________________________________________
+        |  Altitude  |  Radiation       |     Radiation         |
+        |    (KM)    |  Environment(SSO)|     Environment(45)   |
+        |____________|__________________|_______________________|
+        |    600     |      0.010       |       0.008           |
+        |    700     |      0.015       |       0.010           |
+        |    800     |      0.020       |       0.012           |
+        |____________|__________________|_______________________|
+
+## OWNERSHIP 
+Quantarverse Limited, Didcot
+
+### Install the necessary dependencies using `pip`:
+
+```bash
+pip install SQEC

@@ -1,0 +1,9 @@
+README.md
+setup.py
+SQEC/__init__.py
+SQEC/qec.py
+SQEC.egg-info/PKG-INFO
+SQEC.egg-info/SOURCES.txt
+SQEC.egg-info/dependency_links.txt
+SQEC.egg-info/requires.txt
+SQEC.egg-info/top_level.txt
