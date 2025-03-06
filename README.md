@@ -6,14 +6,6 @@ This repository provides an introductory software framework for Quantum Error Co
 
 The framework is a key deliverable from a project funded through the STFC Cross Cluster Proof of Concept: SparQ Quantum Computing Call, titled "Space-Hardened Quantum Error Correction for Orbital Computing."
 
-## Capabilities
-
-- Simulation of space radiation effects on quantum computing systems
-- Implementation of novel space-hardened QEC protocols
-- System-level radiation resilience modeling
-- Visualization and analysis tools for performance evaluation
-- Configurable radiation environments based on orbital parameters
-
 ## Project Structure
 
 ```
