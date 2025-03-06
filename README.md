@@ -43,41 +43,7 @@ The framework incorporates radiation data for different orbital parameters:
 ## Installation
 
 ```bash
-# Clone the repository
-git clone https://github.com/username/rad_qec.git
-cd rad_qec
-
-# Install dependencies
-pip install numpy matplotlib qiskit
-
-# Install the package
-pip install .
-```
-
-Alternatively, install directly from PyPI:
-
-```bash
 pip install SQEC
-```
-
-## Quick Start
-
-```python
-from SQEC.qec import SpaceRadiationSimulator, SpaceHardenedQEC
-import matplotlib.pyplot as plt
-
-# Initialize the radiation simulator with orbital parameters
-simulator = SpaceRadiationSimulator(altitude=700, inclination='SSO')
-
-# Create a QEC instance with the simulator
-qec = SpaceHardenedQEC(simulator=simulator)
-
-# Run a quantum circuit with error correction
-results = qec.run_circuit(shots=1024)
-
-# Visualize the results
-qec.visualize(results)
-plt.show()
 ```
 
 
