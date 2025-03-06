@@ -14,22 +14,6 @@ The framework is a key deliverable from a project funded through the STFC Cross 
 - Visualization and analysis tools for performance evaluation
 - Configurable radiation environments based on orbital parameters
 
-## Project Background
-
-This software framework represents a collaboration between:
-- **Quantarverse Ltd** (Lead Organization)
-- **Radiation Analysis Services Ltd** (Partner)
-- **Quantum Software Lab, University of Edinburgh** (Partner)
-- **National Quantum Computing Centre** (Support)
-
-The project addresses the unique challenges of operating quantum computers in space environments, with potential applications in:
-- Secure satellite communications
-- Quantum computing as a service
-- Sensitive data hosting in space
-- Confidential financial transactions
-- Quantum AI processing
-- Bioinformatics and medical diagnostics
-
 ## Project Structure
 
 ```
@@ -96,29 +80,6 @@ qec.visualize(results)
 plt.show()
 ```
 
-## Key Features
-
-### Space Radiation Simulator
-
-The `SpaceRadiationSimulator` class models the space radiation environment and calculates error rates based on:
-- Orbital altitude
-- Inclination angle
-- Solar activity level
-- Spacecraft shielding properties
-
-### Space-Hardened QEC
-
-The `SpaceHardenedQEC` class implements quantum error correction schemes specifically designed for space environments:
-- Radiation-aware error models
-- Adaptive error correction based on orbital parameters
-- Optimization for space radiation patterns
-
-### Visualization Tools
-
-The framework includes comprehensive visualization tools to:
-- Compare error rates across different orbital scenarios
-- Evaluate QEC performance metrics
-- Analyze system-level resilience
 
 ## Requirements
 
@@ -127,9 +88,6 @@ The framework includes comprehensive visualization tools to:
 - NumPy
 - Matplotlib
 
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
 
@@ -142,13 +100,13 @@ This work was supported by the STFC Cross Cluster Proof of Concept: SparQ Quantu
 ## Contact
 
 For inquiries about this project or potential collaborations, please contact:
-- Quantarverse Ltd, Didcot
+- Email: aa@quantarverse.com
 
 ## Citation
 
 If you use this software in your research, please cite:
 ```
-Space-Hardened Quantum Error Correction for Orbital Computing. 
-Quantarverse Ltd, Radiation Analysis Services Ltd, and Quantum Software Lab (University of Edinburgh).
-STFC Cross Cluster Proof of Concept: SparQ Quantum Computing Call, 2024.
+Quantarverse Limited. (2025). Space-Hardened Quantum Error Correction for Orbital Computing.
+STFC Cross Cluster Proof of Concept: SparQ Quantum Computing Call.
+
 ```
