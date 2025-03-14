@@ -16,7 +16,7 @@ setup(
          'matplotlib',
          'numpy'
     ],
-    author='Arun Balabhadran, Cherian P I, Quantarverse LTD',
+    author='Arun B Anilkumar, Cherian P I, Quantarverse LTD',
     description='A Qiskit-based Quantum Error Correction simulation package',
     long_description=long_description,
     long_description_content_type='text/markdown',
